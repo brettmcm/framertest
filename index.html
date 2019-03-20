@@ -33,9 +33,10 @@
     </head>
 
     <body>
+        Test
         <main></main>
         <script src="build/standalone.js"></script>
-        
+
         <script id="build_index_js">
         (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -483,7 +484,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_react_dom__;
 /******/ });
 });
         </script>
-        
+
         <script>
         const data = {
   "presentationNode": {
@@ -1034,7 +1035,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_react_dom__;
 };
         const $build_index_js = document.querySelector("#build_index_js")
         const script = $build_index_js ? $build_index_js.textContent.trim() : ""
-        
+
         // need react to have rendered, before we can do setPreviewData
         setTimeout(() => {
             if (script.length > 0) {
