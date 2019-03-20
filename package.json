@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "c5662853-0654-40eb-8949-c7c3ae850149"
+	},
+	"author": "Brett McMillin",
+	"dependencies": {
+		"@framer/stance.page-components": "^1.25.0"
+	}
+}
